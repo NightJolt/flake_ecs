@@ -12,4 +12,7 @@ namespace fl::ecs {
 
     typedef vec_t<entity_t> dense_t;
     typedef vec_t<addr_t> sparse_t;
+    
+    constexpr entity_t nullentity = ~(entity_t)0;
+    constexpr addr_t nulladdr = ~(addr_t)0;
 }

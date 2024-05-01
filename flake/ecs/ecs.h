@@ -7,11 +7,6 @@
 #include <flake/ecs/impl.h>
 
 namespace fl::ecs {
-    constexpr entity_t nullentity = ~(entity_t)0;
-    constexpr addr_t nulladdr = ~(addr_t)0;
-}
-
-namespace fl::ecs {
     entity_id_t get_entity_id(entity_t);
     entity_ver_t get_entity_version(entity_t);
 
